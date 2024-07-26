@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#intro {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#intro .intro-text h2 {
+    color: #ff1493;
+}
+
+#intro .intro-text h1 {
+    color: #1e90ff;
+}
+
+#intro .intro-text h2:nth-of-type(2) {
+    color: #9370db;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #ff1493;
+}
+
+.btn-secondary {
+    background-color: #1e90ff;
+}
+
+#recent-posts {
+    padding: 40px 0;
+    background-color: #e6f7ff;
+}
+
+#recent-posts .posts {
+    display: flex;
+    justify-content: space-around;
+}
+
+#recent-posts .post {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#featured-works {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+#featured-works .works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#featured-works .work {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#featured-works .work-image {
+    background-color: #1e90ff;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
